@@ -63,6 +63,23 @@
       line-height: 1.8;
     }
 
+    .next-steps__subheading {
+      margin: 0 0 1.25rem;
+      color: #233863;
+      font-size: 0.95rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .next-steps__actions {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
     .btn {
       display: inline-block;
       padding: 1rem 2rem;
@@ -85,6 +102,14 @@
 
       p {
         font-size: 1rem;
+      }
+
+      .next-steps__actions {
+        flex-direction: column;
+      }
+
+      .btn {
+        width: 100%;
       }
     }
   }
