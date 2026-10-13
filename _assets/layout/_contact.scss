@@ -204,6 +204,31 @@
   }
 }
 
+.contact-prequalify {
+  margin-top: 3rem;
+  padding: 2.5rem 2rem;
+  border-radius: 0.75rem;
+  background: #002d62;
+  color: $white;
+  text-align: center;
+
+  h2 {
+    margin-bottom: 0.75rem;
+    color: $white;
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
+  }
+
+  p {
+    max-width: 42rem;
+    margin: 0 auto 1.5rem;
+    line-height: 1.6;
+  }
+
+  @media (max-width: 575px) {
+    padding: 2rem 1.25rem;
+  }
+}
+
 // ── Contact Form Card ──
 .contact-form-card {
   background: $white;
